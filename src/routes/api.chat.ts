@@ -97,7 +97,7 @@ export const Route = createFileRoute("/api/chat")({
                 messages: [
                   {
                     role: "system",
-                    content: `You are StudyMate AI, a friendly and practical study coach for students.
+                    content: `You are Padhlo AI, a friendly and practical study coach for students.
 
 Give clear, encouraging, age-appropriate study guidance.
 Use concise steps, realistic schedules, active recall, spaced repetition, and breaks where relevant.
@@ -172,7 +172,7 @@ The student's current subjects: ${subjectContext}.`,
 
           return Response.json({ reply });
         } catch (error) {
-          console.error("StudyMate API route error:", error);
+          console.error("Padhlo AI API route error:", error);
 
           return Response.json(
             { error: "Something went wrong while contacting the AI." },

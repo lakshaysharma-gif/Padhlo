@@ -81,13 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "StudyMate AI | Student Study Planner" },
+      { title: "Padhlo AI | Student Study Planner" },
       {
         name: "description",
         content: "A thoughtful study planner for organizing subjects, exam dates, and weekly study time.",
       },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "StudyMate AI | Student Study Planner" },
+      { property: "og:title", content: "Padhlo AI | Student Study Planner" },
       {
         property: "og:description",
         content: "Organize subjects, exam dates, and weekly study time in one clear plan.",

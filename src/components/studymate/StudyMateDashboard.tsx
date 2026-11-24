@@ -76,12 +76,12 @@ export function StudyMateDashboard() {
   return (
     <div className={`study-shell ${darkMode ? "dark" : ""}`}>
       <header className="study-header study-container">
-        <a className="study-brand" href="#overview" aria-label="StudyMate AI home">
+        <a className="study-brand" href="#overview" aria-label="Padhlo AI home">
           <span className="study-brand-mark" aria-hidden="true">
             <BookOpenCheck size={19} />
           </span>
           <span className="study-brand-name">
-            StudyMate<span className="study-brand-ai">AI</span>
+            Padhlo<span className="study-brand-ai">AI</span>
           </span>
         </a>
         <nav className="study-nav" aria-label="Main navigation">
@@ -175,7 +175,7 @@ export function StudyMateDashboard() {
           </div>
         </section>
 
-        <section className="feature-strip study-container" id="features" aria-label="StudyMate benefits">
+        <section className="feature-strip study-container" id="features" aria-label="Padhlo AI benefits">
           {features.map((feature) => {
             const Icon = feature.icon;
             return (
@@ -221,7 +221,7 @@ export function StudyMateDashboard() {
       <footer className="study-footer">
         <div className="study-footer-inner study-container">
           <span className="study-footer-brand">
-            <BookOpenCheck size={14} aria-hidden="true" /> StudyMate AI
+            <BookOpenCheck size={14} aria-hidden="true" /> Padhlo AI
           </span>
           <span>Made for better study days.</span>
         </div>

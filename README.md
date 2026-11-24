@@ -1,6 +1,6 @@
-# StudyMate AI
+# Padhlo AI
 
-Create a responsive React + TypeScript website called StudyMate AI. Build a modern landing page with a navigation bar, hero section, feature cards, and a study planner form. Allow students to enter subjects, difficulty levels, preparation percentages, exam dates, and available study hours. Use a clean dashboard design with blue and white colors. Create a functional frontend with modular components and sample study-plan data. Do not integrate any external APIs yet. Ensure all starter files are generated and saved successfully.
+Create a responsive React + TypeScript website called Padhlo AI. Build a modern landing page with a navigation bar, hero section, feature cards, and a study planner form. Allow students to enter subjects, difficulty levels, preparation percentages, exam dates, and available study hours. Use a clean dashboard design with blue and white colors. Create a functional frontend with modular components and sample study-plan data. Do not integrate any external APIs yet. Ensure all starter files are generated and saved successfully.
 
 This project was built with [Lovable](https://lovable.dev).
 
@@ -24,7 +24,7 @@ npm run dev
 ```
 
 
-## Enable the StudyMate AI chatbot
+## Enable the Padhlo AI chatbot
 
 The chatbot uses the OpenAI Responses API from a server route. Your API key stays on the server and is never sent to the browser.
 
